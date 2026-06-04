@@ -1,0 +1,97 @@
+data_hora,suporte_vida,energia,comunicacao,habitat,laboratorio,armazenamento,geracao_solar_kwh,geracao_eolica_kwh,consumo_kwh,reserva_energia_pct,temperatura_interna_c,temperatura_externa_c,radiacao_uv,qualidade_comunicacao_pct,velocidade_vento_kmh,evento,severidade
+2026-06-01 00:00,1,1,1,1,1,1,30.5,12.0,35.0,82,22.1,-45.3,3.2,95,18.4,Sistema inicializado com sucesso,normal
+2026-06-01 01:00,1,1,1,1,1,1,28.3,11.5,34.2,80,22.0,-46.1,3.1,94,17.9,Leitura de sensores nominal,normal
+2026-06-01 02:00,1,1,1,1,1,1,25.1,10.8,33.8,78,21.8,-47.0,3.3,93,16.5,Rotina de verificacao concluida,normal
+2026-06-01 03:00,1,1,1,1,1,1,22.0,10.2,32.5,76,21.5,-48.2,3.5,92,15.8,Ciclo de manutencao preventiva,normal
+2026-06-01 04:00,1,1,1,1,0,1,18.5,9.8,31.0,73,21.3,-49.5,3.8,90,14.2,Laboratorio desligado para economia,alerta
+2026-06-01 05:00,1,1,1,1,0,1,15.2,9.5,28.5,70,21.0,-50.1,4.0,88,13.5,Modo economia ativado,alerta
+2026-06-01 06:00,1,1,1,1,0,1,20.8,10.0,29.0,68,21.2,-49.8,4.2,87,14.8,Geracao solar em recuperacao,alerta
+2026-06-01 07:00,1,1,1,1,1,1,32.0,11.2,36.5,66,22.3,-48.0,4.5,89,16.0,Laboratorio reativado,normal
+2026-06-01 08:00,1,1,1,1,1,1,38.5,12.5,40.2,64,22.8,-46.5,5.0,91,17.5,Pico de geracao solar matinal,normal
+2026-06-01 09:00,1,1,1,1,1,1,42.0,13.0,42.0,63,23.2,-45.0,5.5,92,18.2,Consumo elevado - experimentos,normal
+2026-06-01 10:00,1,1,1,1,1,1,45.0,13.5,44.8,61,23.5,-44.2,6.0,93,19.0,Alerta de consumo acima da media,alerta
+2026-06-01 11:00,1,1,1,1,1,1,46.2,14.0,43.5,60,23.8,-43.8,6.5,94,19.5,Geracao maxima do periodo,normal
+2026-06-01 12:00,1,1,0,1,1,1,44.0,13.8,41.0,59,24.0,-43.5,7.0,45,20.0,Falha parcial no modulo de comunicacao,critico
+2026-06-01 13:00,1,1,0,1,1,1,43.5,13.2,40.5,57,24.2,-44.0,7.2,38,19.8,Comunicacao comprometida - tentativa de reconexao,critico
+2026-06-01 14:00,1,1,1,1,1,1,42.8,12.8,39.0,56,24.0,-44.5,6.8,85,19.2,Comunicacao restabelecida,normal
+2026-06-01 15:00,1,1,1,1,1,1,40.0,12.5,38.5,55,23.8,-45.0,6.2,90,18.5,Operacoes normais retomadas,normal
+2026-06-01 16:00,1,1,1,1,1,1,35.0,11.8,37.0,54,23.5,-46.0,5.5,91,17.8,Declinio de geracao solar,normal
+2026-06-01 17:00,1,1,1,1,1,1,28.0,11.0,35.5,52,23.0,-47.5,4.8,90,17.0,Preparacao para periodo noturno,normal
+2026-06-01 18:00,1,1,1,1,0,1,20.0,10.5,30.0,50,22.5,-49.0,4.0,89,16.0,Laboratorio desativado - noite,normal
+2026-06-01 19:00,1,1,1,1,0,1,12.0,10.0,28.0,48,22.0,-50.5,3.5,88,15.0,Geracao solar em queda,alerta
+2026-06-01 20:00,1,1,1,1,0,1,5.0,9.8,26.5,46,21.8,-52.0,3.0,87,14.5,Energia solar minima,alerta
+2026-06-01 21:00,1,1,1,1,0,1,2.0,9.5,25.0,44,21.5,-53.5,2.8,86,14.0,Operando com eolica e reservas,alerta
+2026-06-01 22:00,1,1,1,1,0,1,0.5,9.2,24.0,42,21.2,-54.0,2.5,85,13.5,Reservas em consumo,alerta
+2026-06-01 23:00,1,1,1,1,0,1,0.2,9.0,23.5,40,21.0,-55.0,2.2,84,13.0,Modo noturno ativo,alerta
+2026-06-02 00:00,1,1,1,1,0,1,0.0,8.8,22.0,38,20.8,-56.0,2.0,83,12.5,Geracao solar zerada,alerta
+2026-06-02 01:00,1,1,1,1,0,1,0.0,8.5,21.5,36,20.5,-57.0,1.8,82,12.0,Reserva energetica em declinio,alerta
+2026-06-02 02:00,1,0,1,1,0,1,0.0,8.2,21.0,34,20.2,-58.0,1.5,80,11.5,Alerta energia - modulo reporta falha,critico
+2026-06-02 03:00,1,0,1,1,0,1,0.0,8.0,20.5,32,20.0,-58.5,1.3,78,11.0,Energia critica - reserva abaixo de 35%,critico
+2026-06-02 04:00,1,0,1,1,0,0,0.0,7.8,18.0,30,19.8,-59.0,1.2,76,10.5,Armazenamento desligado para economia,critico
+2026-06-02 05:00,1,1,1,1,0,0,8.0,8.0,17.5,28,19.5,-58.0,1.5,75,10.8,Energia parcialmente restaurada ao amanhecer,critico
+2026-06-02 06:00,1,1,1,1,0,0,18.0,9.0,20.0,27,20.0,-56.5,2.0,77,12.0,Geracao solar retomando,alerta
+2026-06-02 07:00,1,1,1,1,0,1,28.0,10.0,25.0,28,20.5,-54.0,2.8,80,13.5,Armazenamento reativado,alerta
+2026-06-02 08:00,1,1,1,1,1,1,35.0,11.0,35.0,30,21.0,-52.0,3.5,83,15.0,Todos os modulos operacionais,normal
+2026-06-02 09:00,1,1,1,1,1,1,40.0,12.0,38.0,32,21.5,-50.0,4.2,86,16.5,Sistema em recuperacao,normal
+2026-06-02 10:00,1,1,1,1,1,1,44.0,13.0,40.0,35,22.0,-48.0,5.0,89,18.0,Reserva em recarregamento,normal
+2026-06-02 11:00,1,1,1,1,1,1,46.0,13.5,41.0,38,22.5,-46.5,5.5,91,19.0,Operacoes estabilizadas,normal
+2026-06-02 12:00,1,1,1,1,1,1,47.0,14.0,42.0,41,23.0,-45.0,6.0,93,19.5,Pico de geracao diurno,normal
+2026-06-02 13:00,1,1,1,1,1,1,46.5,13.8,41.5,44,23.2,-44.5,6.2,94,19.8,Geracao estavel,normal
+2026-06-02 14:00,1,1,1,1,1,1,44.0,13.2,39.0,47,23.0,-45.0,5.8,93,19.0,Recarga de baterias em progresso,normal
+2026-06-02 15:00,1,1,1,1,1,1,40.0,12.5,37.0,50,22.8,-46.0,5.2,92,18.2,Reserva atingiu 50%,normal
+2026-06-02 16:00,1,1,1,1,1,1,35.0,12.0,36.0,52,22.5,-47.0,4.8,91,17.5,Operacao nominal,normal
+2026-06-02 17:00,1,1,1,1,1,1,28.0,11.5,34.0,54,22.0,-48.5,4.2,90,16.8,Sistema estavel,normal
+2026-06-02 18:00,1,1,1,1,0,1,20.0,10.8,30.0,55,21.8,-50.0,3.5,89,15.5,Laboratorio desativado - protocolo noturno,normal
+2026-06-02 19:00,1,1,1,1,0,1,12.0,10.0,27.0,56,21.5,-51.5,3.0,88,14.8,Geracao solar em declinio,normal
+2026-06-02 20:00,1,1,1,1,0,1,5.0,9.5,25.0,57,21.2,-53.0,2.5,87,14.0,Transicao para energia eolica,normal
+2026-06-02 21:00,1,1,1,1,0,1,2.0,9.2,24.0,57,21.0,-54.0,2.2,86,13.5,Modo economia leve ativado,normal
+2026-06-02 22:00,1,1,1,1,0,1,0.5,9.0,23.0,57,20.8,-55.0,2.0,85,13.0,Consumo reduzido noturno,normal
+2026-06-02 23:00,1,1,1,1,0,1,0.2,8.8,22.5,56,20.5,-55.5,1.8,84,12.5,Operacao noturna estavel,normal
+2026-06-03 00:00,1,1,1,1,0,1,0.0,8.5,22.0,55,20.2,-56.0,1.5,83,12.0,Reservas adequadas para noite,normal
+2026-06-03 01:00,1,1,1,1,0,1,0.0,8.2,21.0,54,20.0,-56.5,1.3,82,11.5,Monitoramento noturno ativo,normal
+2026-06-03 02:00,1,1,1,1,0,1,0.0,8.0,20.5,53,19.8,-57.0,1.2,81,11.0,Ciclo de verificacao automatica,normal
+2026-06-03 03:00,1,1,1,1,0,1,0.0,7.8,20.0,52,19.5,-57.5,1.0,80,10.5,Temperatura externa em queda,alerta
+2026-06-03 04:00,1,1,1,0,0,1,0.0,7.5,19.0,51,18.0,-60.0,0.8,79,10.0,Falha no modulo habitat - aquecimento comprometido,critico
+2026-06-03 05:00,1,1,1,0,0,1,5.0,7.8,19.5,50,17.5,-61.0,1.0,78,10.2,Habitat critico - temperatura interna caindo,critico
+2026-06-03 06:00,1,1,1,1,0,1,15.0,8.5,22.0,48,19.0,-59.0,1.5,80,11.5,Habitat restaurado - aquecimento reativado,alerta
+2026-06-03 07:00,1,1,1,1,0,1,25.0,9.5,28.0,46,20.5,-56.0,2.5,83,13.0,Temperatura interna em recuperacao,normal
+2026-06-03 08:00,1,1,1,1,1,1,35.0,11.0,35.0,45,21.5,-53.0,3.5,86,15.0,Operacoes diurnas iniciadas,normal
+2026-06-03 09:00,1,1,1,1,1,1,40.0,12.0,38.0,44,22.0,-50.5,4.5,89,17.0,Experimentos em andamento,normal
+2026-06-03 10:00,1,1,1,1,1,1,43.0,12.8,40.0,44,22.5,-48.0,5.2,91,18.5,Sistema operacional pleno,normal
+2026-06-03 11:00,1,1,1,1,1,1,45.0,13.2,41.0,45,23.0,-46.0,5.8,92,19.2,Recarga de baterias ativa,normal
+2026-06-03 12:00,1,1,1,1,1,1,46.0,13.5,40.5,47,23.2,-45.0,6.2,93,19.5,Pico energetico do dia,normal
+2026-06-03 13:00,1,1,1,1,1,1,45.5,13.0,39.0,49,23.5,-44.8,6.5,94,19.8,INCONSISTENCIA: radiacao alta mas sensores reportam normal,normal
+2026-06-03 14:00,1,1,1,1,1,1,43.0,12.5,38.0,51,23.2,-45.5,8.5,93,19.0,Radiacao elevada detectada por sensor secundario,alerta
+2026-06-03 15:00,1,1,1,1,1,1,40.0,12.0,37.0,53,23.0,-46.5,9.0,91,18.2,Protocolo de protecao radiologica ativado,alerta
+2026-06-03 16:00,1,1,1,1,1,1,36.0,11.5,36.0,54,22.8,-47.5,7.5,90,17.5,Radiacao em declinio,normal
+2026-06-03 17:00,1,1,1,1,1,1,30.0,11.0,34.0,55,22.5,-48.5,5.0,89,16.8,Niveis de radiacao normalizados,normal
+2026-06-03 18:00,1,1,1,1,0,1,22.0,10.5,30.0,56,22.0,-50.0,3.8,88,15.5,Transicao para modo noturno,normal
+2026-06-03 19:00,1,1,1,1,0,1,14.0,10.0,27.5,57,21.5,-51.5,3.0,87,14.8,Reducao programada de consumo,normal
+2026-06-03 20:00,1,1,1,1,0,1,6.0,9.5,25.0,58,21.2,-53.0,2.5,86,14.0,Geracao solar residual,normal
+2026-06-03 21:00,1,1,1,1,0,1,2.5,9.2,24.0,58,21.0,-54.0,2.0,85,13.5,Reservas estaveis para periodo noturno,normal
+2026-06-03 22:00,1,1,1,1,0,1,0.8,9.0,23.0,58,20.8,-55.0,1.8,84,13.0,Consumo minimo noturno,normal
+2026-06-03 23:00,1,1,1,1,0,1,0.2,8.8,22.5,57,20.5,-55.5,1.5,83,12.5,Monitoramento passivo ativo,normal
+2026-06-04 00:00,1,1,1,1,0,1,0.0,8.5,22.0,57,20.2,-56.0,1.2,82,12.0,Inicio do quarto dia de missao,normal
+2026-06-04 01:00,1,1,1,1,0,1,0.0,8.2,21.0,56,20.0,-56.5,1.0,81,11.5,Sensores em modo economia,normal
+2026-06-04 02:00,1,1,0,1,0,1,0.0,8.0,20.5,55,19.8,-57.0,0.8,30,11.0,Perda de sinal de comunicacao,critico
+2026-06-04 03:00,1,1,0,1,0,1,0.0,7.8,18.0,54,19.5,-57.5,0.7,15,10.5,Comunicacao critica - isolamento da base,critico
+2026-06-04 04:00,1,1,0,1,0,1,0.0,7.5,17.5,53,19.2,-58.0,0.8,10,10.0,Tentativa de reconexao via canal secundario,critico
+2026-06-04 05:00,1,1,1,1,0,1,6.0,8.0,18.0,52,19.5,-57.0,1.2,72,10.5,Comunicacao restaurada parcialmente,alerta
+2026-06-04 06:00,1,1,1,1,0,1,16.0,9.0,22.0,51,20.0,-55.5,2.0,80,12.0,Sinal estabilizado,normal
+2026-06-04 07:00,1,1,1,1,0,1,26.0,10.0,28.0,50,20.8,-53.0,3.0,85,14.0,Reinicializacao do sistema de comunicacao,normal
+2026-06-04 08:00,1,1,1,1,1,1,34.0,11.0,35.0,49,21.5,-51.0,4.0,89,16.0,Modulos reativados para operacao diurna,normal
+2026-06-04 09:00,1,1,1,1,1,1,39.0,12.0,37.0,50,22.0,-49.0,4.8,91,17.5,Diagnostico completo do sistema executado,normal
+2026-06-04 10:00,1,1,1,1,1,1,43.0,12.8,39.0,51,22.5,-47.5,5.5,92,18.5,Resultado: todos os subsistemas operacionais,normal
+2026-06-04 11:00,1,1,1,1,1,1,45.0,13.2,40.0,52,23.0,-46.0,6.0,93,19.0,Missao operando em parametros normais,normal
+2026-06-04 12:00,1,1,1,1,1,1,46.5,13.5,40.5,54,23.2,-45.0,6.2,94,19.5,Relatorio de meio-dia: status nominal,normal
+2026-06-04 13:00,1,1,1,1,1,1,45.0,13.0,39.5,55,23.5,-44.5,6.5,94,19.8,Continuidade operacional confirmada,normal
+2026-06-04 14:00,1,1,1,1,1,1,42.0,12.5,38.0,57,23.0,-45.5,5.8,93,19.0,Baterias em carga completa prevista para 18h,normal
+2026-06-04 15:00,1,1,1,1,1,1,38.0,12.0,36.5,58,22.8,-46.5,5.2,92,18.2,Geracao solar em declinio natural,normal
+2026-06-04 16:00,1,1,1,1,1,1,33.0,11.5,35.0,59,22.5,-47.5,4.5,91,17.5,Preparacao para ciclo noturno,normal
+2026-06-04 17:00,1,1,1,1,1,1,26.0,11.0,33.0,60,22.0,-49.0,3.8,90,16.5,Consumo reduzido progressivamente,normal
+2026-06-04 18:00,1,1,1,1,0,1,18.0,10.5,28.0,62,21.5,-50.5,3.2,89,15.5,Laboratorio desligado - fim do expediente,normal
+2026-06-04 19:00,1,1,1,1,0,1,10.0,10.0,26.0,63,21.2,-52.0,2.8,88,14.8,Ultima leitura solar do dia,normal
+2026-06-04 20:00,1,1,1,1,0,1,3.0,9.5,24.0,64,21.0,-53.5,2.2,87,14.0,Missao estavel - reservas adequadas,normal
+2026-06-04 21:00,1,1,1,1,0,1,1.0,9.2,23.0,64,20.8,-54.5,1.8,86,13.5,Modo noturno configurado,normal
+2026-06-04 22:00,1,1,1,1,0,1,0.5,9.0,22.0,64,20.5,-55.0,1.5,85,13.0,Monitoramento continuo ativo,normal
+2026-06-04 23:00,1,1,1,1,0,1,0.2,8.8,21.5,64,20.2,-55.5,1.2,84,12.5,Fim do ciclo operacional - missao estavel,normal
