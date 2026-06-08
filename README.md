@@ -8,11 +8,8 @@
 
 | Nome | RM |
 |------|------|
-| [Nome do Integrante 1] | [RM00000] |
-| [Nome do Integrante 2] | [RM00000] |
-| [Nome do Integrante 3] | [RM00000] |
-| [Nome do Integrante 4] | [RM00000] |
-| [Nome do Integrante 5] | [RM00000] |
+| [Carlos Henrique De Godoy Santos] | [RM569735] |
+| [Natália Souza Carvalho] | [RM569068] |
 
 ---
 
@@ -33,9 +30,9 @@ Global_Solution/
 │   ├── sistema.py          # Código principal (executável)
 │   └── sistema.ipynb       # Notebook Jupyter (desenvolvimento)
 ├── data/
-│   └── dados.csv           # Dados simulados de telemetria (100 registros)
+│   └── dados.csv           # Dados simulados de telemetria (96 registros)
 └── docs/
-    ├── relatorio.pdf       # Relatório técnico (4-8 páginas)
+    ├── relatorio.pdf       # Relatório técnico
     ├── link_video.txt      # Link do vídeo no YouTube
     └── uso_ia.md           # Registro de uso de IA (opcional)
 ```
