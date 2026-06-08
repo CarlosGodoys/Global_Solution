@@ -8,8 +8,8 @@
 
 | Nome | RM |
 |------|------|
-| [Carlos Henrique De Godoy Santos] | [RM569735] |
-| [Natália Souza Carvalho] | [RM569068] |
+| Carlos Henrique De Godoy Santos | RM569735 |
+| Natália Souza Carvalho | RM569068 |
 
 ---
 
